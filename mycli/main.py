@@ -12,6 +12,7 @@ from random import choice
 from codecs import open
 
 import click
+click.disable_unicode_literals_warning = True
 import sqlparse
 from prompt_toolkit import CommandLineInterface, Application, AbortAction
 from prompt_toolkit.enums import DEFAULT_BUFFER
